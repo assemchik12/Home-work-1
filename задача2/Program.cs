@@ -14,7 +14,7 @@ if (a > b)
 {
     Console.WriteLine("число a больше числа b");
 }
- 
+
 
 if (a < b)
 {
