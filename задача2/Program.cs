@@ -9,15 +9,19 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число b = ");
 int b = int.Parse(Console.ReadLine());
 
-
+int max = 0;
+int min = 0;
 if (a > b)
 {
-    Console.WriteLine("число a больше числа b");
+    max = a;
+    min = b;
 }
 
-
-if (a < b)
+else
 {
-Console.WriteLine("число a меньше b");
+    max = b;
+    min = a;
 }
+
+Console.WriteLine("max = " + max + " и " + "min = " + min);
 
