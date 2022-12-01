@@ -11,9 +11,9 @@ int evenNumber = 2;
 
 if(N > 1)
 {
-    while(evenNumber <= N)
-    {
+while(evenNumber <= N)
+{
         Console.Write(evenNumber + " ");
         evenNumber = evenNumber + 2;
-    }
+}
 }
